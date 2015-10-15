@@ -1,0 +1,8 @@
+1.看CSS效果用：Sublime Text 3安裝外掛：Install Package → LiveStyle (chrom瀏覽器安裝外掛：EMMET LIVESTYLE)
+F12 → livestyle (可以幫你找到，此網站所用的樣式表)
+
+2.chrom瀏覽器安裝外掛：AUTO REFRESH
+
+3.搜尋 google font (英文字)
+
+4.搜尋 justfont (中文字)
