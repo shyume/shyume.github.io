@@ -1,0 +1,34 @@
+p.w1 {
+    font-size: 150%;
+    color: blue;
+    font-family: times;
+}
+
+p.t1 {
+    font-size: 16;
+    color: blue;
+    font-family: times;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.t2 {
+    font-size: 16;
+    color: blue;
+    font-family: times;
+    text-align: center;
+    font-weight: bold;
+}
+
+p.c1 {
+    font-size: 16;
+    color: block;
+    font-family: times;
+}
+
+p.c2 {
+    font-size: 16;
+    color: block;
+    font-family: times;
+    text-align: center;
+}
