@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(70%, 50%, 60%);
+    background-color: #CCBBFF;
 }
 
 
@@ -27,6 +27,16 @@ li {
 
 /* li 設定 */
 
-p.pblue
- {color: blue;} /* p class設定 (.) */
-p#pgreen {color: green;} /* p#pgreen設定 (#) */
+p.pblue {
+    color: blue;
+}
+
+
+/* p class設定 (.) */
+
+p#pgreen {
+    color: green;
+}
+
+
+/* p#pgreen設定 (#) */
