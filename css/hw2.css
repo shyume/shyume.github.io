@@ -2,6 +2,7 @@
 
 body.body {
     background: #CEFFCE;
+    font-family: 標楷體;
 }
 
 
@@ -19,8 +20,10 @@ p.t1 {
 /*t1項目表格底色*/
 
 td.td1 {
-    height: 50PX;
+    height: 40px;
     background: #CECEFF;
+    border-radius: 25px;
+    /*弧度*/
 }
 
 
