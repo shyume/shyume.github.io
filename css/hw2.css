@@ -1,34 +1,44 @@
-p.w1 {
-    font-size: 150%;
-    color: blue;
-    font-family: times;
+/* body*/
+
+body.body {
+    background: #CEFFCE;
 }
+
+
+/* t1項目字體*/
 
 p.t1 {
-    font-size: 16;
+    font-size: 18;
     color: blue;
-    font-family: times;
+    font-family: 標楷體;
     text-align: center;
     font-weight: bold;
 }
 
-p.t2 {
-    font-size: 16;
-    color: blue;
-    font-family: times;
-    text-align: center;
-    font-weight: bold;
+
+/*t1項目表格底色*/
+
+td.td1 {
+    height: 50PX;
+    background: #CECEFF;
 }
+
+
+/* 內容字體(偏左)*/
 
 p.c1 {
-    font-size: 16;
+    font-size: 18;
     color: block;
-    font-family: times;
+    font-family: 標楷體;
+    text-align: left;
 }
 
+
+/* 內容字體(置中)*/
+
 p.c2 {
-    font-size: 16;
+    font-size: 18;
     color: block;
-    font-family: times;
+    font-family: 標楷體;
     text-align: center;
 }
