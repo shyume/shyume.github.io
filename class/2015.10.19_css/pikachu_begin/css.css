@@ -1,0 +1,16 @@
+.circle1
+{
+box-sizing: content-box;
+width: 300px;
+height: 300px;
+text-align: center;
+padding-top: 90px;
+background-color: red;
+border-radius: 50%; /*正方形變圓形*/
+
+position:absolute;
+top:-75px;
+left:130px;
+color: yellow;
+font-size: 0.8em;
+}
