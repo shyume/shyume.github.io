@@ -12,6 +12,9 @@ p.H1 {
     font-family: 標楷體;
 }
 
+
+/* H2 設定 */
+
 p.H2 {
     padding-left: 1em;
     color: blue;
@@ -19,8 +22,12 @@ p.H2 {
     font-family: times;
 }
 
-
-/* H2 設定 */
+p.H3 {
+    padding-left: 1em;
+    color: brown;
+    font-size: 24;
+    font-family: 標楷體;
+}
 
 
 /* p 設定 */
