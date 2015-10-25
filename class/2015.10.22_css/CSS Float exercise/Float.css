@@ -1,53 +1,125 @@
-.list
-{
-position: fixed;
+.list {
+    position: fixed;
+}
 
+.tleft {
+    margin-left: 10%;
+    float: left;
+    width: 250px;
+    background-color: #FFF0AC;
+}
+
+.tcenter {
+    margin-left: 4%;
+    margin-right: 3%;
+    float: left;
+    width: 250px;
+    background-color: #FFF0AC;
+}
+
+.tright {
+    margin-right: 12%;
+    float: right;
+    width: 250px;
+    background-color: #FFF0AC;
 }
 
 img {
-	display: block;
-	
-}
-ul li/*主選單*/
-{
-float: left;
-display: block;
-background-color: #9A5927;
-width: 150px;
-text-align: center;
-line-height: 50px; /*行高*/
-font-size: 14pt;/*字體大小*/
-} 
-
-ul li a /*a為超連結的意思*/
-{
-color: #F9F59A;
-text-transform: none; /*有無底線*/
+    /*圖片置中*/
+    display: block;
+    margin: auto;
 }
 
-ul li ul{display: none;} /*子選單隱藏*/ 
-
-ul li:hover ul
-{
- display: block; /*選單選項被滑鼠指到（hover）時，子選單就以區塊狀顯示（display:block）*/
+p.h1 {
+    color: blue;
+    font-size: 30;
+    font-family: 標楷體;
+    text-align: center;
 }
 
-ul li:hover
-{
-background-color:#ba7947; /*選單選項被指到時，背景顏⾊色換成＃ba7947*/
+p.p1 {
+    font-size: 18;
+    /*文字與邊界距離*/
+    text-indent: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-family: 標楷體;
 }
 
-ul li ul li:hover
-{
-background-color:#f9f59a; /*選單項⺫⽬目下⾯面的⼦子選單項⺫⽬目被指到時，背景顏⾊色換成＃f9f59a*/
+p.h2 {
+    color: blue;
+    font-size: 24;
+    font-family: 標楷體;
+    text-align: center;
+    /*虛線邊框製作*/
+    border-style: dashed;
+    border-width: 5px;
+    border-color: #9A5927;
 }
 
-ul li ul li:hover a
-{
-color:#9a5927; /*選單項⺫⽬目下⾯面的⼦子選單項⺫⽬目被指到時，超連結字體顏⾊色變成#9a5927*/
+p.h4 {
+    color: green;
+    font-size: 20;
+    font-family: 標楷體;
+    text-align: center;
 }
 
-p.c1
+p.p2 {
+    font-size: 16;
+    font-family: 標楷體;
+}
+
+ul li
+/*主選單*/
+
 {
-	text-allign:center;
+    float: left;
+    display: block;
+    background-color: #9A5927;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    /*行高*/
+    font-size: 14pt;
+    /*字體大小*/
+}
+
+ul li a
+/*a為超連結的意思*/
+
+{
+    color: #F9F59A;
+    text-transform: none;
+    /*有無底線*/
+}
+
+ul li ul {
+    display: none;
+}
+
+
+/*子選單隱藏*/
+
+ul li:hover ul {
+    display: block;
+    /*選單選項被滑鼠指到（hover）時，子選單就以區塊狀顯示（display:block）*/
+}
+
+ul li:hover {
+    background-color: #ba7947;
+    /*選單選項被指到時，背景顏⾊色換成＃ba7947*/
+}
+
+ul li ul li:hover {
+    background-color: #f9f59a;
+    /*選單項⽬下面的⼦選單項⽬被指到時，背景顏⾊色換成＃f9f59a*/
+}
+
+ul li ul li:hover a {
+    color: #9a5927;
+    /*選單項⽬目下⾯的子選單項⽬被指到時，超連結字體顏⾊色變成#9a5927*/
+}
+
+p.c1 {
+    text-allign: center;
 }
