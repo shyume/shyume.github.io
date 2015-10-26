@@ -3,23 +3,22 @@
 }
 
 .tleft {
-    margin-left: 10%;
+    margin-left: 15%;
     float: left;
     width: 250px;
     background-color: #FFF0AC;
 }
 
 .tcenter {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 5%;
     float: left;
     width: 250px;
     background-color: #FFF0AC;
 }
 
 .tright {
-    margin-right: 10%;
-    float: right;
+    margin-left: 5%;
+    float: left;
     width: 250px;
     background-color: #FFF0AC;
 }
