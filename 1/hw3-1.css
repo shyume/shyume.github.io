@@ -1,4 +1,65 @@
-/*---------a---------*/
+/*A*/
+
+.list {
+    position: fixed;
+}
+
+ul li
+/*原始主選單*/
+
+{
+    float: left;
+    display: block;
+    background-color: #262626;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14pt;
+    color: #9d9d9d;
+}
+
+ul li a
+/*原始主選單-超連結顏色*/
+
+{
+    color: #9d9d9d;
+    /*有無底線*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+/*子選單隱藏*/
+
+ul li:hover ul {
+    display: block;
+    /*選單選項被滑鼠指到（hover）時，子選單就以區塊狀顯示（display:block）*/
+}
+
+ul li:hover {
+    background-color: block;
+    color: white;
+    /*選單選項被指到時，背景顏⾊色換成＃ba7947*/
+}
+
+.up {
+    margin: 40px;
+    float: center;
+}
+
+
+/*B*/
+
+.frame {
+    margin: 20px;
+    float: center;
+    background-color: #eeeeee;
+    padding: 70px;
+    /*框線與網頁編距離*/
+}
 
 .btn {
     background-color: #337ab7;
@@ -16,6 +77,31 @@
     padding: 10px;
     font-size: 14px;
     color: #333333;
+}
+
+
+/*C*/
+
+.tright {
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    border-color: #9d9d9d;
+    border-style: solid;
+    padding: 5px;
+    margin: 20px;
+    width: 250px;
+    background-color: white;
+}
+
+.table {
+    margin-left: 3%;
+    margin-right: 2%;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+    width: 250px;
+    background-color: white;
 }
 
 img {
