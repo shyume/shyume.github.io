@@ -139,7 +139,7 @@ p.b-1 {
     font-size: 63px;
     font-family: Helvetica, Arial, sans-serif;
     color: #333333;
-    line-height: 40px;
+    line-height: 35px;
     text-align: left;
 }
 p.b-2 {
@@ -147,7 +147,7 @@ p.b-2 {
     font-size: 20px;
     font-family: Helvetica, Arial, sans-serif;
     color: #333333;
-    line-height: 10px;
+    line-height: 20px;
     text-align: left;
 }
 p.c-1 {
@@ -155,7 +155,7 @@ p.c-1 {
     font-size: 25px;
     font-family: Helvetica, Arial, sans-serif;
     color: #333333;
-    line-height: 50px;
+    line-height: 20px;
     text-align: left;
     text-indent: 1em;
 }
@@ -173,7 +173,7 @@ p.c-3 {
     font-size: 14px;
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
-    line-height: 10px;
+    line-height: 20px;
     
     text-align: center;
 }
