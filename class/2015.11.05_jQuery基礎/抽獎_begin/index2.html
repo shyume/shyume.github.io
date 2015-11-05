@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 	<head>
 		<title>Jump for Joy</title>
@@ -17,12 +17,17 @@
 		</div>
 
 		<script>
-			$(document).ready(function(){
+			$(document).click(function(){
 				$(".guess_box").click(function(){
 					$(".guess_box p").remove();
 					var discount = Math.floor((Math.random()*5)+5);
 					var discount_msg = "<p>Your Discount is "+discount+ "%</p>";
-					$(this).append(discount_msg);
+					$("guess_box").each(function(){
+						$(this).unbind("click");
+					})
+					
+					//$(this).unbind("click");
+					//$(this).append(discount_msg);
 					//alert(discount_msg);
 				});
 
