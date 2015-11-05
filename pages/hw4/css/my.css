@@ -59,7 +59,8 @@ ul li:hover {
 }
 
 .up {
-    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     float: center;
 }
 
