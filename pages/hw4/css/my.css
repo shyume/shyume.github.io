@@ -71,7 +71,9 @@ ul li:hover {
     background-color: #eeeeee;    	
     margin: 20px;
     float: center;
-    padding: 30px;
+    /*padding-left: 30px;*/
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 7px;
     /*框線與網頁編距離*/
 }
