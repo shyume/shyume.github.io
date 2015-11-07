@@ -68,22 +68,22 @@ ul li:hover {
 /*B*/
 
 .frame {
-    background-color: #eeeeee;    	
+    background-color: #eeeeee;
     margin: 20px;
     float: center;
     /*padding: 30px;*/
-    padding:50px;
+    padding: 50px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 7px;
     /*框線與網頁編距離*/
 }
 
-.line{
-	border-top-style: solid; 
-	border-top-width:1px;
-	border-top-color: #eeeeee;
-	margin: 20px; 
+.line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #eeeeee;
+    margin: 20px;
 }
 
 .btn {
@@ -106,6 +106,7 @@ ul li:hover {
 
 
 /*C*/
+
 .tright {
     margin-left: 2%;
     margin-right: 2%;
@@ -116,8 +117,9 @@ ul li:hover {
     margin: 22px;
     width: 250px;
     background-color: white;
-    border-width:1px;
+    border-width: 1px;
 }
+
 .table {
     margin-left: 3%;
     margin-right: 2%;
@@ -126,18 +128,14 @@ ul li:hover {
     margin: 20px;
     width: 250px;
     background-color: white;
-    margin-left: 3%;
-    margin-right: 2%;
-    float: left;
-    width: 250px;
-   
 }
+
 img {
     /*圖片置中*/
-    
     display: block;
     margin: auto;
 }
+
 p.b-1 {
     color: block;
     font-size: 63px;
@@ -146,6 +144,7 @@ p.b-1 {
     line-height: 30px;
     text-align: left;
 }
+
 p.b-2 {
     color: block;
     font-size: 20px;
@@ -154,6 +153,7 @@ p.b-2 {
     line-height: 35px;
     text-align: left;
 }
+
 p.c-1 {
     color: block;
     font-size: 25px;
@@ -163,6 +163,7 @@ p.c-1 {
     text-align: left;
     text-indent: 1em;
 }
+
 p.c-2 {
     color: block;
     font-size: 25px;
@@ -170,17 +171,17 @@ p.c-2 {
     color: #333333;
     line-height: 30px;
     font-size: 20px;
-
     text-align: center;
 }
+
 p.c-3 {
     font-size: 14px;
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
     line-height: 20px;
-    
     text-align: center;
 }
+
 p.c-4 {
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;
