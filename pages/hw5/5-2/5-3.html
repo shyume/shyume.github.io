@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>Jump for Joy</title>
+    <title>5-3</title>
     <link href="styles/my_style.css" rel="stylesheet">
     <script src="scripts/jquery-1.6.2.min.js"></script>
 </head>
 
 <body>
     <div id="header">
-        <h2>Jump for Joy Sale</h2>
+        <h2>shopping</h2>
     </div>
     <div id="main">
         <div class="guess_box"><img src="images/jump1.jpg" /></div>
@@ -18,15 +18,20 @@
         <div class="guess_box"><img src="images/jump4.jpg" /></div>
     </div>
     <script>
-    $(document).click(function() {
+    //$(".guess_box").click(function() {
+    //    alert("Are You Sure You Choose me?");
+    //});
+    $(document).ready(function() {
         $(".guess_box").click(function() {
-
+            // $(".guess_box p").remove();
             var discount = Math.floor((Math.random() * 5) + 5);
             var discount_msg = "<p>Your Discount is " + discount + "%</p>";
-            $("guess_box").each(function() {
+            $(this).append(discount_msg);
+            $(this).unbind("click");
+            $(".guess_box").each(function() {
                 $(this).unbind("click");
-            })
 
+            })
         });
 
     });
