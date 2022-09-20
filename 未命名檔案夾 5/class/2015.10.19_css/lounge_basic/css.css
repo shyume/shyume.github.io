@@ -1,0 +1,44 @@
+ p.p1 {
+     background-color: pink;
+     padding: 50;
+     /*框大小*/
+     border: solid 5px;
+     margin: 50;
+     /*框線與網頁編距離*/
+ }
+ 
+ p.p2 {
+ 	width: 500px;
+ 	/*文字與眶距離*/
+ 	padding: 30px;
+ 	padding-left: 100px;
+ 	background-color: #a7cece;
+ 	/*虛線邊框製作*/
+ 	border-style: dashed;
+ 	border-width: 5px;
+ 	border-color: white;
+ 	/*圖片放入表格裡*/
+ 	background-image: url(images/icon.png);
+ 	background-repeat: no-repeat; /*也可以寫成background-position: top left;*/
+
+ }
+ /*DIV*/
+.c-1 {
+     box-sizing: content-box;
+     height: 200px;
+     width: 200px;
+     background-color: red;
+     padding: 50px;
+ }
+ /*DIV*/
+.c-2 {
+ 	box-sizing: border-box;
+ 	 height: 200px;
+     width: 200px;
+     background-color: blue;
+     padding: 50px;
+ }
+/*所有元件套用*/
+*{
+	box-sizing: border-box; 
+}
