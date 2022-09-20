@@ -1,0 +1,83 @@
+    * {
+        box-sizing: border-box;
+    }
+    /*圖片置中，大小100px*/
+    
+    * img {
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
+    /*符號(*)代表全部*/
+    /*尚未完成，把圖片為png檔用紅色虛線圈起來*/
+    
+    [img$="png"] {
+        /*虛線邊框製作*/
+        border-style: dashed;
+        border-radius: 50%;
+        border-width: 5px;
+        border-color: red;
+    }
+    
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+        border: 1px solid white;
+    }
+    /*區塊寬度，百分比固定，不用更改*/
+    
+    .col-1 {
+        width: 8.33%;
+    }
+    
+    .col-2 {
+        width: 16.66%;
+    }
+    
+    .col-3 {
+        width: 25%;
+    }
+    
+    .col-4 {
+        width: 33.33%;
+    }
+    
+    .col-5 {
+        width: 41.66%;
+    }
+    
+    .col-6 {
+        width: 50%;
+    }
+    
+    .col-7 {
+        width: 58.33%;
+    }
+    
+    .col-8 {
+        width: 66.66%;
+    }
+    
+    .col-9 {
+        width: 75%;
+    }
+    
+    .col-10 {
+        width: 83.33%;
+    }
+    
+    .col-11 {
+        width: 91.66%;
+    }
+    
+    .col-12 {
+        width: 100%;
+    }
+    /*固定項目，不用更改*/
+    
+    .row:after {
+        content: "";
+        clear: both;
+        /*我的左右都不可以有浮動得元素*/
+        display: block;
+    }
