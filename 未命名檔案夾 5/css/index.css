@@ -1,0 +1,33 @@
+body {
+    background-color: #CCBBFF;
+}
+
+
+/* rgb(204,102,0%)、(#CC6600)*/
+
+p.H1 {
+    padding-left: 0.5em;
+    color: red;
+    font-size: 30;
+    font-family: 標楷體;
+}
+
+
+/* H2 設定 */
+
+p.H2 {
+    padding-left: 1em;
+    color: blue;
+    font-size: 24;
+    font-family: times;
+}
+
+/* p 設定 */
+
+li {
+    padding-left: 1.5em;
+    color: green;
+}
+
+
+/* li 設定 */

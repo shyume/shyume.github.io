@@ -1,0 +1,42 @@
+body {
+    background-color: #CCBBFF;
+}
+
+
+/* rgb(204,102,0%)、(#CC6600)*/
+
+H2 {
+    color: blue;
+}
+
+
+/* H2 設定 */
+
+p {
+    color: red;
+    font-family: times
+}
+
+
+/* p 設定 */
+
+li {
+    color: green;
+}
+
+
+/* li 設定 */
+
+p.pblue {
+    color: blue;
+}
+
+
+/* p class設定 (.) */
+
+p#pgreen {
+    color: green;
+}
+
+
+/* p#pgreen設定 (#) */
