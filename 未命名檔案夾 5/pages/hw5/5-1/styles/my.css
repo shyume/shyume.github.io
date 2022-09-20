@@ -1,0 +1,22 @@
+p.p1 {
+    font-size: 20px;
+    font-family: 標楷體;
+    text-align: left;
+    color: blue;
+}
+
+p.p2 {
+    font-size: 16px;
+    font-family: 標楷體;
+    text-align: left;
+    color: green;
+}
+
+.btn {
+    background-color: #337ab7;
+    border-radius: 7px;
+    font-weight: normal;
+    padding: 2px;
+    font-size: 14px;
+    color: white;
+}
