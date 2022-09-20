@@ -1,0 +1,42 @@
+.col1{
+background: #5C7080;
+}
+.col2{
+background: #6BC0FF;
+}
+.cola
+{
+	background-color: red;
+}
+
+.colb
+{
+	background-color: green;
+}
+.colc
+{
+	background-color: yellow;
+}
+
+/*自己定義顏色套用，在原本的名稱後面加上變數名稱 */
+.pink{background-color: pink;}
+
+/*固定影片背景*/
+.video {
+position: fixed;
+z-index: -100; /*數字越小越在螢幕內層，數字越大，越靠近使用者(螢幕外層) */
+}
+
+/*--把video放進jumbotron內*/
+#jumbo {
+position: relative;
+opacity: 0.5; /*最透明0.1*/
+}
+#jumbo video{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+z-index: -100;
+}
