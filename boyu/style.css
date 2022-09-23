@@ -377,6 +377,10 @@ h6.text-uppercase,
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
+.inner .ps-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 footer .inner {
     padding-bottom: 5rem;
 }
@@ -1238,6 +1242,9 @@ button.hamburger.animate.active:after {
 }
 .box.p-30 {
     padding: 1.5rem 1.5rem 1rem;
+}
+.box.p-10 {
+    padding: 1rem 1rem 1rem;
 }
 .boxed.list-view:not(.mega-menu) {
     margin-bottom: -1.5rem;
@@ -6636,6 +6643,7 @@ footer.inverse-text address {
         padding-top: 4rem;
         padding-bottom: 4rem;
     }
+
     footer .inner {
         padding-bottom: 3rem;
     }
