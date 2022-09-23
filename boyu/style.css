@@ -4087,7 +4087,7 @@ a.btn-play-wrapper .btn-play:hover {
     font-weight: 500;
     text-transform: uppercase;
     padding: 0.6rem 0.9rem 0.55rem;
-    font-size: 0.65rem;
+    font-size: 1rem;
     letter-spacing: 0.025rem;
     line-height: 1;
     border-radius: 1.5rem;
@@ -4097,8 +4097,8 @@ a.btn-play-wrapper .btn-play:hover {
     color: var(--color-default) !important;
 }
 .isotope-filter ul li a.active {
-    color: var(--color-default);
-    background: var(--color-white);
+    color: var(--color-white);
+    background: var(--color-yellow);
     box-shadow: var(--shadow) !important;
 }
 .isotope-filter ul li a.active:hover {
