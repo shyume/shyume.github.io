@@ -128,7 +128,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Jost', sans-serif; 
     color: #606060;
     font-size: 0.8rem;
     background: #f9fafb;
