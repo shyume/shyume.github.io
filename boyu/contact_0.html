@@ -15,9 +15,6 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="style/css/color/sky.css">
   <link rel="stylesheet" type="text/css" href="style/css/font/font4.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" nonce="3GEzHKRMnumEpudv29Lg-w" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/my97datepicker@4.8.0/skin/WdatePicker.css" />
-  <style>.error {color: red;}</style>
 </head>
 
 <body>
@@ -78,14 +75,14 @@
   </div>
 
   <!-- block_01 -->
-  <div class="wrapper white-wrapper row align-items-center shadow-lg bg-light rounded">
+  <div class="row align-items-center shadow-lg bg-light rounded">
     <div class="container inner">
-      <iframe src='test_table.html' width='100%' height='670' style='border:0;' allowfullscreen='' ></iframe>
+      <iframe src='https://script.google.com/macros/s/AKfycbxSBuak2XfTZ0nYyqIAM4rc1GXLSlkMtUMO74m_o-yrtTI-6ZhiCKdHbycdDUC7QmM/exec?op=iframe' width='100%' height='670' style='border:0;' allowfullscreen='' ></iframe>
     </div>
   </div>
 
   <!-- 我們的資訊 -->
-  <div class="wrapper wrapper">
+  <div class="wrapper white-wrapper">
     <div class="container inner pb-0">
       <h4 class="display-4 text-center"><b>我們的資訊</b></h4>
       <div class="space40"></div>
@@ -196,28 +193,6 @@
       x.parentNode.insertBefore(s, x);
     })();
   </script>
-  
-  <!-- 表單 -->
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
-<script>
-    $(function () {
-        $("#myForm").validate({submitHandler: function (form) {form.submit();return false;},
-            rules: {name: {required: true},
-                phone: {required: true},
-                email: {required: true,email: true},
-                contact: {required: true},
-            },
-            messages: {
-                name: {required: "必填"},
-                phone: {required: "必填"},
-                email: {required: "必填",email: "email格式不正確"},
-                contact: {required: "必填"},
-            },
-        });
-    });
-</script>
-
 
 </body>
 </html>
